@@ -65,8 +65,8 @@ section.soft { background: var(--bg-soft); border-top: 1px solid var(--line); bo
 .card p { color: var(--muted); font-size: .97rem; margin-bottom: .6em; }
 .card a { font-size: .95rem; }
 
-.profile { display: grid; grid-template-columns: 200px 1fr; gap: 40px; align-items: start; }
-.profile img { width: 200px; height: 200px; object-fit: cover; border-radius: 2px; display: block; }
+.profile { display: grid; grid-template-columns: 240px 1fr; gap: 40px; align-items: start; }
+.profile img { width: 240px; height: 320px; object-fit: cover; object-position: top; border-radius: 2px; display: block; }
 .facts { margin-top: 2em; padding-top: 1.2em; border-top: 1px solid var(--line); }
 .facts h3 { font-size: 1.05rem; margin-bottom: .3em; }
 .facts p { color: var(--muted); }
